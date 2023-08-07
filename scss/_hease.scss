@@ -1,0 +1,127 @@
+
+/* Header Top*/
+.header-top{
+	background-color: $color-01;
+}
+.social-area a {
+    color:$color-02;
+    margin: 0;
+    padding: 0;
+    font-size: $font-small-size-01;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    opacity: .5;
+    transition: .3s;
+}
+
+.social-area a:hover {
+    opacity: 1;
+}
+
+.search-top form input {
+    background-color: $bg-color-01;
+    border: none;
+}
+
+.header-top {
+    padding: 5px 0;
+}
+.search-content {
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.search-content .form-control:focus {
+    background-color: $bg-color-01;
+    border: none;
+    box-shadow: none;
+    color: $color-02;
+}
+button.top-search-btn {
+	background-color: $bg-color-01;
+	color: $color-02;
+	border: none;
+	font-size: $font-medium-size-01;
+	opacity: .5;
+	transition: .3s
+}
+button.top-search-btn:hover{
+	opacity: 1;
+}
+.social-area {
+    margin-top: 4px;
+}
+.search-top form input {padding: 0;font-size: $font-small-size-01;}
+
+/*Logo Area*/
+.logo-area a{
+    font-size: $font-big-size-01;
+    display: inline-block;
+}
+.logo-area .site-logo {
+    max-height: 150px;
+    margin: 30px 0;
+}
+
+/* Main Menu */
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #ddd;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+.main-menu ul li a {
+    display: block;
+    padding: 15px;
+    color: $color-01;
+}
+
+.main-menu ul li:hover > a{
+	text-decoration: underline;
+}
+
+/*	Sum Menu */
+ul.sub-menu {
+    position: absolute;
+    z-index: 99;
+    background-color:$color-02;
+    min-width: 160px;
+    visibility: hidden;
+    transition: .3s;
+    opacity: 0;
+}
+
+.main-menu ul li:hover ul.sub-menu{
+	visibility: visible;
+	opacity: 1;
+
+}
+
+.main-menu ul.sub-menu li {
+    display: block;
+    text-align: left;
+}
+
+.main-menu ul.sub-menu li a:hover {
+    text-decoration: none;
+    background-color: $color-04;
+}
+
+/* Mean Menu */
+.mean-container .mean-bar {
+	float: none;
+	position: absolute;
+	top: 212px;
+}
