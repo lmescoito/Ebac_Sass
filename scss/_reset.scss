@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+    font-family: $font-family-default;
+}
+
+p {
+    color:$color-01;
+    font-size: $font-small-size-01;
+    line-height: 24px;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: .3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-default;
+    font-weight: 400;
+    color:$color-01;
+    margin: 0;
+    line-height: 1;
+}
+
+img{
+	max-width: 100%;
+}
+
+.mt-100{
+	margin-top: 100px;
+}

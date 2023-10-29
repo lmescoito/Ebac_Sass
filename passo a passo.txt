@@ -1,0 +1,14 @@
+
+instalar o sass
+npm install - g sass
+
+partials
+-mudularizar o codigo
+
+criar arquivo snippets
+
+_reset.scss
+
+para chamar o arquivo snippets no codigo sass
+
+@ import 'reset';
